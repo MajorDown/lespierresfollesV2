@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {}
+
+.input {
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    color: var(--color-error);
+}

@@ -1,0 +1,11 @@
+:root {
+  --color-back: #ffffff;
+  --color-font: #171717;
+  --color-error: #5b0000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
